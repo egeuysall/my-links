@@ -204,11 +204,6 @@
   a {
     @apply text-primary-700 dark:text-primary-500;
     @apply transition-colors duration-200 ease-in-out;
-
-    &:hover {
-      @apply text-primary-900 dark:text-primary-700;
-      @apply underline;
-    }
   }
 
   /* List formatting */
