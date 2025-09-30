@@ -17,7 +17,7 @@ const DynamicLinks = ({ params }: Props) => {
   return (
     <div>
       <h1>Link not found</h1>
-      <p>No short link exists for "{shortName}"</p>
+      <p>No short link exists for &quot;{shortName}&quot;</p>
     </div>
   );
 };
