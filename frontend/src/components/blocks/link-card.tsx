@@ -7,9 +7,9 @@ export const LinkCard: React.FC<LinkProps> = ({ link, shortName, description }) 
   return (
     <Link
       href={link}
-      className="no-underline hover:opacity-75 duration-200 ease-in-out transition-opacity"
+      className="no-underline hover:opacity-75 duration-200 ease-in-out transition-opacity h-full"
     >
-      <Card>
+      <Card className="h-full">
         <CardHeader>
           <CardTitle>{toTitleCase(shortName.replace(/[-_]/g, ' '))}</CardTitle>
           <CardDescription>{description}</CardDescription>
