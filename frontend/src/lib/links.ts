@@ -12,8 +12,8 @@ export const links: Link[] = [
     description: 'My professional profile and resume.',
   },
   {
-    link: 'https://twitter.com/egecreates',
-    shortName: 'twitter',
+    link: 'https://x.com/egecreates',
+    shortName: 'x',
     description: 'Follow me for updates and thoughts.',
   },
   {
@@ -45,5 +45,20 @@ export const links: Link[] = [
     link: 'https://www.photos.egeuysal.com',
     shortName: 'photos',
     description: 'A showcase of my work and projects.',
+  },
+  {
+    link: 'https://start.egeuysal.com',
+    shortName: 'start',
+    description: 'Log. Launch. Learn.',
+  },
+  {
+    link: 'https://link.egeuysal.com',
+    shortName: 'cove',
+    description: 'Shorten. Share. Track.',
+  },
+  {
+    link: 'https://bridge.egeuysal.com',
+    shortName: 'bridge',
+    description: 'Publish. Markdown. Effortlessly.',
   },
 ];
