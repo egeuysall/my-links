@@ -1,5 +1,4 @@
 import type { Metadata } from 'next';
-import React from 'react';
 import { links } from '@/lib/links';
 import { toTitleCase } from '@/utils/functions';
 

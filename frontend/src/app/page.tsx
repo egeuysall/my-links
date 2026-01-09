@@ -1,4 +1,4 @@
-import React from 'react';
+
 import { links } from '@/lib/links';
 import { LinkCard } from '@/components/blocks/link-card';
 

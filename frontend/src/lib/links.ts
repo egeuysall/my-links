@@ -47,14 +47,14 @@ export const links: Link[] = [
     description: 'A showcase of my work and projects.',
   },
   {
-    link: 'https://start.egeuysal.com',
-    shortName: 'start',
-    description: 'Log. Launch. Learn.',
+    link: 'https://github.com/egeuysall/drop',
+    shortName: 'drop',
+    description: 'Drop. Share. Sync.',
   },
   {
-    link: 'https://link.egeuysal.com',
-    shortName: 'cove',
-    description: 'Shorten. Share. Track.',
+    link: 'https://ryva.dev',
+    shortName: 'ryva',
+    description: 'Stop Losing Focus. Start Building Faster.',
   },
   {
     link: 'https://bridge.egeuysal.com',
