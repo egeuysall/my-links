@@ -3,12 +3,12 @@ import type { Link } from '@/types/link-types';
 export const links: Link[] = [
   {
     link: 'https://github.com/egeuysall',
-    shortName: 'github',
+    shortName: 'gh',
     description: 'My code repositories and open source projects.',
   },
   {
     link: 'https://www.linkedin.com/in/egeuysall',
-    shortName: 'linkedin',
+    shortName: 'li',
     description: 'My professional profile and resume.',
   },
   {
@@ -18,38 +18,38 @@ export const links: Link[] = [
   },
   {
     link: 'https://www.blog.egeuysal.com',
-    shortName: 'blog',
+    shortName: 'b',
     description: 'Personal blog about tech and life.',
   },
   {
     link: 'https://www.youtube.com/@egeuysall',
-    shortName: 'youtube',
+    shortName: 'yt',
     description: 'My YouTube channel for tutorials and vlogs.',
   },
   {
     link: 'https://www.instagram.com/ege.creates',
-    shortName: 'instagram',
+    shortName: 'ig',
     description: 'Photos, stories, and daily moments.',
   },
   {
     link: 'mailto:hi@egeuysal.com',
-    shortName: 'email',
+    shortName: 'mail',
     description: 'Send me an email.',
   },
   {
     link: 'https://www.egeuysal.com',
-    shortName: 'portfolio',
+    shortName: 'web',
     description: 'A showcase of my work and projects.',
   },
   {
     link: 'https://www.photos.egeuysal.com',
-    shortName: 'photos',
+    shortName: 'pic',
     description: 'A showcase of my work and projects.',
   },
   {
-    link: 'https://github.com/egeuysall/drop',
-    shortName: 'drop',
-    description: 'Drop. Share. Sync.',
+    link: 'https://huesly.app',
+    shortName: 'hy',
+    description: '60 seconds from mood to production code.',
   },
   {
     link: 'https://ryva.dev',

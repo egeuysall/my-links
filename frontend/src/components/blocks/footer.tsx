@@ -1,4 +1,3 @@
-
 import Link from 'next/link';
 import { Globe, Github, Mail } from 'lucide-react';
 import type { LucideIcon } from 'lucide-react';

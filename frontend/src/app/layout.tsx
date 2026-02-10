@@ -47,7 +47,7 @@ const template = 'Ege Uysal';
  * The base URL of the site.
  * @type {string}
  */
-const siteUrl = 'http://www.links.egeuysal.com';
+const siteUrl = 'http://l.egeuysal.com';
 
 /**
  * The name of the site's author.

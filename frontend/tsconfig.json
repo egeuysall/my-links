@@ -1,11 +1,7 @@
 {
   "compilerOptions": {
     "target": "ES2022",
-    "lib": [
-      "dom",
-      "dom.iterable",
-      "esnext"
-    ],
+    "lib": ["dom", "dom.iterable", "esnext"],
     "allowJs": true,
     "skipLibCheck": true,
     "strict": true,
@@ -32,30 +28,14 @@
       }
     ],
     "paths": {
-      "@/*": [
-        "./src/*"
-      ],
-      "@components/*": [
-        "./src/components/*"
-      ],
-      "@lib/*": [
-        "./src/lib/*"
-      ],
-      "@utils/*": [
-        "./src/utils/*"
-      ],
-      "@styles/*": [
-        "./src/styles/*"
-      ],
-      "@hooks/*": [
-        "./src/hooks/*"
-      ],
-      "@context/*": [
-        "./src/context/*"
-      ],
-      "@types/*": [
-        "./src/types/*"
-      ]
+      "@/*": ["./src/*"],
+      "@components/*": ["./src/components/*"],
+      "@lib/*": ["./src/lib/*"],
+      "@utils/*": ["./src/utils/*"],
+      "@styles/*": ["./src/styles/*"],
+      "@hooks/*": ["./src/hooks/*"],
+      "@context/*": ["./src/context/*"],
+      "@types/*": ["./src/types/*"]
     }
   },
   "include": [
@@ -67,10 +47,5 @@
     ".next/types/**/*.ts",
     ".next/dev/types/**/*.ts"
   ],
-  "exclude": [
-    "node_modules",
-    "build",
-    ".next",
-    "out"
-  ]
+  "exclude": ["node_modules", "build", ".next", "out"]
 }

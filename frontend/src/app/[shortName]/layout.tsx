@@ -5,9 +5,13 @@ import { toTitleCase } from '@/utils/functions';
 export const revalidate = 3600;
 export const dynamic = 'auto';
 
-export async function generateMetadata({ params }: { params: { shortName: string } }): Promise<Metadata> {
+export async function generateMetadata({
+  params,
+}: {
+  params: { shortName: string };
+}): Promise<Metadata> {
   const { shortName } = params;
-  const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://www.link.egeuysal.com';
+  const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://l.egeuysal.com';
   const canonical = `${siteUrl.replace(/\/$/, '')}/${shortName}`;
 
   const found = links.find((entry) => entry.shortName === shortName);
