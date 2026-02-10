@@ -2,11 +2,11 @@ import { redirect } from 'next/navigation';
 import { links } from '@/lib/links';
 
 interface Props {
-  params: { shortName: string };
+  params: Promise<{ shortName: string }>;
 }
 
-const DynamicLinks = ({ params }: Props) => {
-  const { shortName } = params;
+const DynamicLinks = async ({ params }: Props) => {
+  const { shortName } = await params;
 
   const found = links.find((entry) => entry.shortName === shortName);
 
